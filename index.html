@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalcHours</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <img src="./imgs/jogador.imagem.90a831f08d2ec4ef.6461736473616461732e706e67.png" alt="logo" class="logo">
+
+    <div class="container">
+        <div id="title">
+            <h1 class="title">Calc Hours</h1> 
+        </div>
+        <h3 class="subtitle">Calcule o tempo exato de suas atividades</h3>
+
+        <form id="myForm" name="form">
+            <div class="initialTime">
+                <p class="description">Tempo Inicial</p>
+                <input type="time" id="initialTime">
+                <button id="bttnini" class="button">Hora Local</button>
+            </div>
+
+            <div class="endTime">
+                <p class="description">Tempo Final</p>
+                <input type="time" id="endTime">
+                <button id="bttnend" class="button">Hora Local</button>
+            </div>
+
+            <div class="incrementTime">
+                <p class="description">Tempo á Somar</p>
+                <input type="time" id="incrementTime">
+            </div>
+
+            <div class="decrementTime">
+                <p class="description">Tempo á Desconsiderar</p>
+                <input type="time" id="decrementTime">
+            </div>
+
+            <div class="submit">
+                <input type="submit" value="Calcular" id="submit" name="form">
+            </div>
+        </form>
+
+        <div class="results">
+            <h1 class="result">Resultado:</h1>
+            <p id="timeResult">00:00</p>
+        </div>
+    </div>
+</body>
+</html>

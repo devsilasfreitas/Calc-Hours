@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Batman;
+    src: url(./fonts/batmfo__.ttf);
+}
+
+* {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #fbff00;
+    font-family: Batman;
+}
+
+.logo {
+    display: block;
+    width: 100px;
+    margin: 15px auto;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.container {
+    background-color: white;
+    border-radius: 30px;
+    padding: 30px 20px;
+    width: 100%;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    margin-bottom: 15px;
+}
+
+.description, input {
+    margin-bottom: 10px;
+}
+
+#submit {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #fbff00;
+    color: black;
+    border: solid black; 
+    font-family: Batman;
+    font-size: 20px;
+}
+
+.results {
+    background-color: #fbff00;
+    padding: 10px 10px;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#timeResult {
+    font-size: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    border: solid white;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    font-family: Batman;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid #fbff00;
+}
